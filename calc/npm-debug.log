@@ -1,0 +1,87 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'path--save' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /Users/Programming/Desktop/extraToy/calc/package.json
+5 warn package.json calc@1.0.0 No description
+6 warn package.json calc@1.0.0 No repository field.
+7 warn package.json calc@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /Users/Programming/Desktop/extraToy/calc/node_modules/express/package.json
+9 verbose installManyTop reading scoped package data from /Users/Programming/Desktop/extraToy/calc/node_modules/path/package.json
+10 info package.json path@0.12.7 path is also the name of a node core module.
+11 verbose readDependencies loading dependencies from /Users/Programming/Desktop/extraToy/calc/package.json
+12 silly cache add args [ 'path--save', null ]
+13 verbose cache add spec path--save
+14 silly cache add parsed spec { raw: 'path--save',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'path--save',
+14 silly cache add   rawSpec: '',
+14 silly cache add   spec: '*',
+14 silly cache add   type: 'range' }
+15 silly addNamed path--save@*
+16 verbose addNamed "*" is a valid semver range for path--save
+17 silly addNameRange { name: 'path--save', range: '*', hasData: false }
+18 silly mapToRegistry name path--save
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/path--save
+22 verbose addNameRange registry:https://registry.npmjs.org/path--save not in flight; fetching
+23 verbose request uri https://registry.npmjs.org/path--save
+24 verbose request no auth needed
+25 info attempt registry request try #1 at 10:59:56 AM
+26 verbose request id b559d72a690f3fa7
+27 http request GET https://registry.npmjs.org/path--save
+28 http 404 https://registry.npmjs.org/path--save
+29 verbose headers { 'content-type': 'application/json',
+29 verbose headers   'cache-control': 'max-age=0',
+29 verbose headers   'content-length': '2',
+29 verbose headers   'accept-ranges': 'bytes',
+29 verbose headers   date: 'Sat, 12 Dec 2015 18:59:57 GMT',
+29 verbose headers   via: '1.1 varnish',
+29 verbose headers   age: '0',
+29 verbose headers   connection: 'keep-alive',
+29 verbose headers   'x-served-by': 'cache-sjc3122-SJC',
+29 verbose headers   'x-cache': 'MISS',
+29 verbose headers   'x-cache-hits': '0',
+29 verbose headers   'x-timer': 'S1449946796.877524,VS0,VE347' }
+30 silly get cb [ 404,
+30 silly get   { 'content-type': 'application/json',
+30 silly get     'cache-control': 'max-age=0',
+30 silly get     'content-length': '2',
+30 silly get     'accept-ranges': 'bytes',
+30 silly get     date: 'Sat, 12 Dec 2015 18:59:57 GMT',
+30 silly get     via: '1.1 varnish',
+30 silly get     age: '0',
+30 silly get     connection: 'keep-alive',
+30 silly get     'x-served-by': 'cache-sjc3122-SJC',
+30 silly get     'x-cache': 'MISS',
+30 silly get     'x-cache-hits': '0',
+30 silly get     'x-timer': 'S1449946796.877524,VS0,VE347' } ]
+31 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/path--save
+31 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:239:14)
+31 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
+31 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:354:22)
+31 verbose stack     at Request.emit (events.js:110:17)
+31 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1207:14)
+31 verbose stack     at Request.emit (events.js:129:20)
+31 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1153:12)
+31 verbose stack     at IncomingMessage.emit (events.js:129:20)
+31 verbose stack     at _stream_readable.js:908:16
+31 verbose stack     at process._tickCallback (node.js:355:11)
+32 verbose statusCode 404
+33 verbose pkgid path--save
+34 verbose cwd /Users/Programming/Desktop/extraToy/calc
+35 error Darwin 14.5.0
+36 error argv "node" "/usr/local/bin/npm" "install" "path--save"
+37 error node v0.12.7
+38 error npm  v2.11.3
+39 error code E404
+40 error 404 Registry returned 404 for GET on https://registry.npmjs.org/path--save
+40 error 404
+40 error 404 'path--save' is not in the npm registry.
+40 error 404 You should bug the author to publish it (or use the name yourself!)
+40 error 404 It was specified as a dependency of 'calc'
+40 error 404
+40 error 404 Note that you can also install from a
+40 error 404 tarball, folder, http url, or git url.
+41 verbose exit [ 1, true ]

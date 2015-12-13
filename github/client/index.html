@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+<script src="../bower_components/angular/angular.js"></script>
+<script src="../bower_components/angular-route/angular-route.js"></script>
+<script src="app.js"></script>
+</head>
+<body ng-app="app">
+<div ng-controller="gitController">
+  <form ng-submit="findUser()">
+    <input type="text" ng-model="data.username" placeholder="Enter Github Hanlde">
+    <button type="button" ng-click"findUser()">Find User</button>
+  </form>
+<h4>User Created at {{data.createdAt}}</h4>
+</div>
+</body>
+</html>

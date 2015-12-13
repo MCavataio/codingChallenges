@@ -1,0 +1,26 @@
+{
+  "name": "gameoflife",
+  "description": "",
+  "main": "gameOfLife.js",
+  "authors": [
+    "mcavataio <Mcavataiosfp@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/MCavataio/Bracket",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "mocha": "~2.3.4",
+    "chai": "~3.4.2",
+    "sinon": "~1.17.2",
+    "underscore": "~1.8.3",
+    "backbone": "~1.2.3"
+  }
+}

@@ -1,0 +1,15 @@
+<!-- DO NOT CHANGE THIS FILE! Instead, modify calc.js -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script src="./ng-calc.js"></script>
+    </head>
+<body>
+    <div ng-app="calculator">
+        <h1 ng-controller="answerCtrl"> {{ answer.number }} </h1>
+        <button ng-controller="multiplyCtrl" ng-click="answer.number = answer.number * 2">Add</button>
+        <button ng-controller="divideCtrl" ng-click="divide()">Divide</button>
+    </div>
+</body>
+</html>
