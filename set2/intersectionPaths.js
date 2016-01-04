@@ -24,3 +24,19 @@ var intersectionPaths = function(headA, headB) {
     checkList (headA.next,)
   }
 } 
+
+var intersectionPaths = function(headA, headB) {
+  function getLength(list, length) {
+    if(list.next === null) {
+      return length
+    } else {
+      length++
+      getLength(list.next, length);
+    }
+  }
+
+  var headALength = getLength(headA, 1)
+  var headBLength = getLength(headB, 1)
+
+  if ()
+}
